@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "HSFPAR004A-3")
+	(descr "HSFPAR004A-3 piezoelectric force sensor")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
 		(at 0 -2 0)

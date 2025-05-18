@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "4x4mm low profile normally off tactile pushbutton")
 	(tags "R-667842 ")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -345,10 +346,10 @@
 		(uuid "1b9c7ea2-b08c-4b73-acc3-85cd10f7fecd")
 	)
 	(pad "1" smd rect
-		(at -1.849999 -0.750001)
+		(at 1.849999 0.750001)
 		(size 0.508 0.889)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "5718f823-6f89-4827-872b-9851c0d0689c")
+		(uuid "f8426395-adbc-40fe-8570-a05d594775cc")
 	)
 	(pad "2" smd rect
 		(at -1.849999 0.750001)
@@ -357,15 +358,15 @@
 		(uuid "80e353fc-9445-4d09-abb6-bb47dc042a2f")
 	)
 	(pad "3" smd rect
-		(at 1.849999 0.750001)
-		(size 0.508 0.889)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "f8426395-adbc-40fe-8570-a05d594775cc")
-	)
-	(pad "4" smd rect
 		(at 1.849999 -0.750001)
 		(size 0.508 0.889)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "08ddef26-10b3-43c6-88a2-fa3f503e4158")
+	)
+	(pad "4" smd rect
+		(at -1.849999 -0.750001)
+		(size 0.508 0.889)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5718f823-6f89-4827-872b-9851c0d0689c")
 	)
 )
